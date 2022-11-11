@@ -4,7 +4,7 @@
     {
         static void Main(string[] args)
         {
-            DataOpenTK_3DVisualiser dataOpenTk_3DVisualiser = new DataOpenTK_3DVisualiser(new ModelGenerator1());
+            DataOpenTK_3DVisualiser dataOpenTk_3DVisualiser = new DataOpenTK_3DVisualiser(new ModelGenerator3());
             dataOpenTk_3DVisualiser.Run(60);
 
         }

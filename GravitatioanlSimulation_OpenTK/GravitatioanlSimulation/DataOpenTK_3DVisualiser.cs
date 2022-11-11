@@ -85,7 +85,7 @@ namespace GravitatioanlSimulation
             GL.MatrixMode(MatrixMode.Modelview);
             GL.LoadMatrix(ref modelview);
 
-            GL.PointSize(2);
+            GL.PointSize(4);
 
             GL.Begin(BeginMode.Points);
 

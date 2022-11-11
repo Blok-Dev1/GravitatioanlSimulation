@@ -8,7 +8,7 @@ namespace GravitatioanlSimulation
     {
         public Model Generate()
         {
-            int count = 10;
+            int count = 3;
             Vector3[] v = new Vector3[count];
             Vector3[] r = new Vector3[count];
             Random random = new Random();
